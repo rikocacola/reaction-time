@@ -34,7 +34,6 @@ export default {
       this.isPlaying = true;
       this.showScore = false;
       this.tooSoon = false;
-      console.log(this.delay);
     },
     endGame(reactionTime) {
       this.score = reactionTime;
